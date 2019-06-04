@@ -14,10 +14,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RewardByDiscountServiceTest {
 
     private RewardByDiscountService reward = null;
-    private List<Product> smallOrder;
-    private List<Product> bigOrder = null;
 
-    
+    @BeforeEach
+    void setUp() {
+
+        reward = new RewardByDiscountService();
+        reward.setPercentage(0.1);
+        reward.setNeededPoints(100);
+
+    }
+
     @Test
     void setNeededPoints() {
         System.out.println("Test setNeededPoints");
@@ -59,6 +65,8 @@ public class RewardByDiscountServiceTest {
 
     @Nested
     class BigOrder {
+
+        private List<Product> bigOrder = null;
 
         @BeforeEach
         void setUp() {
