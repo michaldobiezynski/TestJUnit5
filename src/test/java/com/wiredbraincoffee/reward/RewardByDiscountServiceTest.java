@@ -70,7 +70,7 @@ public class RewardByDiscountServiceTest {
 
     }
 
-
+    @DisplayName("Given there's a big order")
     @Nested
     class BigOrder {
 
@@ -87,6 +87,7 @@ public class RewardByDiscountServiceTest {
 
         }
 
+        @DisplayName("When customer has enough points, then reward should be applied")
         @Test
         void enoughtCustomerPointsForDiscountInBigOrder() {
 
