@@ -2,6 +2,7 @@ package com.wiredbraincoffee.reward;
 
 import com.wiredbraincoffee.product.Product;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -56,6 +57,7 @@ public class RewardByGiftServiceTest {
 
     @Test
     @DisplayName("Should not exceed timeout")
+    @Disabled("Optimization not implemented yet")
     void timeoutNotExceeded() {
         int numberOfProducts = 2;
         reward.setGiftProductId(numberOfProducts - 1);
