@@ -17,16 +17,18 @@ public class RewardByDiscountServiceTest {
 
     @BeforeEach
     void setUp() {
+
         reward = new RewardByDiscountService();
+        reward.setPercentage(0.1);
+        reward.setNeededPoints(100);
+
         System.out.println("BeforeEach");
+
     }
 
     @Test
     void setNeededPoints() {
         System.out.println("Test setNeededPoints");
-
-
-        reward.setNeededPoints(100);
 
         assertEquals(100, reward.getNeededPoints());
 
@@ -36,17 +38,13 @@ public class RewardByDiscountServiceTest {
     @Test
     void setPercentageForPoints() {
 
-        reward.setPercentage(0.1);
-
         assertEquals(0.1, reward.getPercentage());
+
     }
 
     @Test
     void zeroCustomerPointS() {
-
-        reward.setPercentage(0.1);
-        reward.setNeededPoints(100);
-
+        
         Product smallDecaf = new Product(1, "Small Decaf", 1.99);
         List<Product> order = Collections.singletonList(smallDecaf);
 
