@@ -57,7 +57,7 @@ public class RewardByGiftServiceTest {
     @Test
     @DisplayName("Should not exceed timeout")
     void timeoutNotExceeded() {
-        int numberOfProducts = 50_000;
+        int numberOfProducts = 2;
         reward.setGiftProductId(numberOfProducts - 1);
 
         RewardInformation info = assertTimeoutPreemptively(

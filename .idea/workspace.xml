@@ -5104,7 +5104,9 @@
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/location-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/peers-industry-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/section-inserts.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiredbraincoffee/reward/RewardByGiftServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiredbraincoffee/reward/RewardByGiftServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/controller/ShipwreckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/controller/ShipwreckController.java" afterDir="false" />
@@ -5266,8 +5268,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+            <state relative-caret-position="484">
+              <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -5475,7 +5477,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559654390120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559654723741" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -5500,16 +5502,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RewardByGiftServiceTest.timeoutNotExceeded">
-    <configuration name="HelloWorldTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestJUnit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HelloWorldTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RewardByDiscountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJUnit" />
       <extension name="coverage">
@@ -5556,6 +5548,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RewardByGiftServiceTest.rewardApplied" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiredbraincoffee.reward.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wiredbraincoffee.reward" />
+      <option name="MAIN_CLASS_NAME" value="com.wiredbraincoffee.reward.RewardByGiftServiceTest" />
+      <option name="METHOD_NAME" value="rewardApplied" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJUnit" />
       <extension name="coverage">
@@ -5575,10 +5583,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RewardByGiftServiceTest.timeoutNotExceeded" />
+        <item itemvalue="JUnit.RewardByGiftServiceTest.rewardApplied" />
         <item itemvalue="JUnit.RewardByGiftServiceTest" />
         <item itemvalue="JUnit.RewardByDiscountServiceTest" />
         <item itemvalue="JUnit.RewardByDiscountServiceTest.setPercentageForPoints" />
-        <item itemvalue="JUnit.HelloWorldTest.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -5592,44 +5600,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559632702314</updated>
-      <workItem from="1559632709482" duration="9254000" />
+      <workItem from="1559632709482" duration="9586000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 10h 14m 53s.xml">
-      <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 00m 40s.xml">
-      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 02m 12s.xml">
-      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 02m 22s.xml">
-      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 06m 39s.xml">
-      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 08m 51s.xml">
-      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 10m 20s.xml">
-      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 13m 12s.xml">
-      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 14m 45s.xml">
       <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 17m 37s.xml">
       <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RewardByGiftServiceTest_rewardApplied - 2019.06.04 at 14h 20m 17s.xml">
+      <configuration name="RewardByGiftServiceTest.rewardApplied" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 20m 30s.xml">
+      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 20m 52s.xml">
+      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 21m 06s.xml">
+      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 21m 18s.xml">
+      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 21m 31s.xml">
+      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 25m 09s.xml">
+      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 25m 19s.xml">
+      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9254000" />
+    <option name="totallyTimeSpent" value="9586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-534" width="2576" height="1416" extended-state="6" />
@@ -5745,8 +5753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+        <state relative-caret-position="484">
+          <caret line="63" column="37" lean-forward="true" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
