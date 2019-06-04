@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.toList;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class RewardByGiftServiceTest {
 
@@ -29,6 +29,18 @@ public class RewardByGiftServiceTest {
         assertEquals(4,reward.getGiftProductId(),
                 "Error, the product ID is incorrect"
                 );
+    }
+
+    @Test
+    @DisplayName("Reward applied with enough points")
+    void rewardApplied() {
+
+        RewardInformation info = reward.applyReward(buildSampleOrder(10), 200);
+
+        assertAll("Reward infor errors",
+                () -> assertNotNull(info),
+                () -> assertEquals(2, info.getDiscount()),
+                        () ->  assertEquals(10, info.getPointsRedeemed()));
     }
 
     private List<Product> buildSampleOrder(int numberOfProducts) {

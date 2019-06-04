@@ -5266,8 +5266,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+            <state relative-caret-position="714">
+              <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -5475,7 +5475,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559653337125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559653727451" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -5585,20 +5585,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559632702314</updated>
-      <workItem from="1559632709482" duration="8200000" />
+      <workItem from="1559632709482" duration="8597000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 09h 33m 10s.xml">
-      <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 09h 43m 42s.xml">
-      <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 09h 50m 28s.xml">
-      <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 09h 58m 16s.xml">
       <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -5620,9 +5611,18 @@
     <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 00m 40s.xml">
       <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 02m 12s.xml">
+      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 02m 22s.xml">
+      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 06m 39s.xml">
+      <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8200000" />
+    <option name="totallyTimeSpent" value="8597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-534" width="2576" height="1416" extended-state="6" />
@@ -5738,8 +5738,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="714">
+          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
