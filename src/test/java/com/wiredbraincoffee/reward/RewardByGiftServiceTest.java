@@ -37,10 +37,10 @@ public class RewardByGiftServiceTest {
 
         RewardInformation info = reward.applyReward(buildSampleOrder(10), 200);
 
-        assertAll("Reward infor errors",
+        assertAll("Reward info errors",
                 () -> assertNotNull(info),
-                () -> assertEquals(2, info.getDiscount()),
-                        () ->  assertEquals(10, info.getPointsRedeemed()));
+                () -> assertEquals(2.99, info.getDiscount()),
+                        () ->  assertEquals(100, info.getPointsRedeemed()));
     }
 
     private List<Product> buildSampleOrder(int numberOfProducts) {
