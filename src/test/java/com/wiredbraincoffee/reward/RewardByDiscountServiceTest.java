@@ -13,6 +13,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class RewardByDiscountServiceTest {
 
+    private RewardByDiscountService reward = null;
+
     RewardByDiscountServiceTest() {
         System.out.println("Constructor");
     }
@@ -24,6 +26,7 @@ public class RewardByDiscountServiceTest {
 
     @BeforeEach
     void setUp() {
+        reward = new RewardByDiscountService();
         System.out.println("BeforeEach");
     }
 
@@ -42,7 +45,6 @@ public class RewardByDiscountServiceTest {
     void setNeededPoints() {
         System.out.println("Test setNeededPoints");
 
-        RewardByDiscountService reward = new RewardByDiscountService();
 
         reward.setNeededPoints(100);
 
@@ -53,7 +55,6 @@ public class RewardByDiscountServiceTest {
 
     @Test
     void setPercentageForPoints() {
-        RewardByDiscountService reward = new RewardByDiscountService();
 
         reward.setPercentage(0.1);
 
@@ -62,7 +63,6 @@ public class RewardByDiscountServiceTest {
 
     @Test
     void zeroCustomerPointS() {
-        RewardByDiscountService reward = new RewardByDiscountService();
 
         reward.setPercentage(0.1);
         reward.setNeededPoints(100);
