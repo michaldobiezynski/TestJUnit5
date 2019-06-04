@@ -2,12 +2,15 @@ package com.wiredbraincoffee.reward;
 
 import com.wiredbraincoffee.product.Product;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.toList;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RewardByGiftServiceTest {
 
@@ -18,6 +21,14 @@ public class RewardByGiftServiceTest {
         reward = new RewardByGiftService();
         reward.setGiftProductId(4);
         reward.setNeededPoints(100);
+    }
+
+    @Test
+    @DisplayName("Correct product ID is set")
+    void correctProdcutID() {
+        assertEquals(4,reward.getGiftProductId(),
+                "Error, the product ID is incorrect"
+                );
     }
 
     private List<Product> buildSampleOrder(int numberOfProducts) {
