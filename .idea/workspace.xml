@@ -5248,8 +5248,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="858">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -5365,6 +5365,50 @@
               <item name="TestJUnit" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestJUnit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wiredbraincoffee" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wiredbraincoffee" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wiredbraincoffee" type="462c0819:PsiDirectoryNode" />
+              <item name="reward" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -5412,7 +5456,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559638224752" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559638474039" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -5506,14 +5550,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559632702314</updated>
-      <workItem from="1559632709482" duration="4809000" />
+      <workItem from="1559632709482" duration="5061000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloWorldTest - 2019.06.04 at 08h 21m 15s.xml">
-      <configuration name="HelloWorldTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HelloWorldTest_firstTest - 2019.06.04 at 08h 37m 41s.xml">
       <configuration name="HelloWorldTest.firstTest" configurationId="JUnit" />
     </history-entry>
@@ -5541,9 +5582,12 @@
     <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 09h 43m 42s.xml">
       <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 09h 50m 28s.xml">
+      <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4809000" />
+    <option name="totallyTimeSpent" value="5061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-534" width="2576" height="1416" extended-state="6" />
@@ -5555,7 +5599,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -5565,7 +5609,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32936507" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2515873" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2515873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -5643,8 +5687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="858">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
