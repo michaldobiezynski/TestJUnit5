@@ -5104,7 +5104,6 @@
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/location-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/peers-industry-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/section-inserts.ru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" afterDir="false" />
@@ -5267,8 +5266,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+            <state relative-caret-position="467">
+              <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -5476,7 +5475,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559654252170" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559654390120" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -5593,14 +5592,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559632702314</updated>
-      <workItem from="1559632709482" duration="9116000" />
+      <workItem from="1559632709482" duration="9254000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 10h 12m 53s.xml">
-      <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 10h 14m 53s.xml">
       <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
     </history-entry>
@@ -5628,9 +5624,12 @@
     <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 14m 45s.xml">
       <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 17m 37s.xml">
+      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9116000" />
+    <option name="totallyTimeSpent" value="9254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-534" width="2576" height="1416" extended-state="6" />
@@ -5746,8 +5745,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+        <state relative-caret-position="467">
+          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

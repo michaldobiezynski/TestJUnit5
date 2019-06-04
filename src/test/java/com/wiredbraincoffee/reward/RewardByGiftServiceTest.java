@@ -60,7 +60,7 @@ public class RewardByGiftServiceTest {
         int numberOfProducts = 50_000;
         reward.setGiftProductId(numberOfProducts - 1);
 
-        RewardInformation info = assertTimeout(
+        RewardInformation info = assertTimeoutPreemptively(
                 Duration.ofMillis(4),
                 () ->
                         reward.applyReward(
