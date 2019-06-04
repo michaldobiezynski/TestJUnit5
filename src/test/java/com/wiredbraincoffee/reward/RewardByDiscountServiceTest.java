@@ -15,6 +15,7 @@ public class RewardByDiscountServiceTest {
 
     private RewardByDiscountService reward = null;
 
+    @DisplayName("Given that 100 points are needed for $10")
     @BeforeEach
     void setUp() {
 
@@ -25,21 +26,13 @@ public class RewardByDiscountServiceTest {
     }
 
     @Test
-    void setNeededPoints() {
-        System.out.println("Test setNeededPoints");
-
-        assertEquals(100, reward.getNeededPoints());
-
-    }
-
-
-    @Test
-    void setPercentageForPoints() {
-
+    @DisplayName("Then 100 points should be needed for 10% discount")
+    void checkPercentageAndNeededPoints() {
         assertEquals(0.1, reward.getPercentage());
-
+        assertEquals(100, reward.getNeededPoints());
     }
 
+    @DisplayName("Given there's a small order")
     @Nested
     class SmallOrder {
         private List<Product> smallOrder = null;
@@ -51,29 +44,24 @@ public class RewardByDiscountServiceTest {
         }
 
 
-        @Test
-        void zeroCustomerPointS() {
-
-            RewardInformation info = reward.applyReward(smallOrder, 0);
-
-            assertEquals(0, info.getDiscount());
-            assertEquals(0, info.getPointsRedeemed());
-        }
-
+        @DisplayName("Given the customer has zero points")
         @Nested
         class ZeroPoints {
             private RewardInformation info =null;
 
+            @DisplayName("When the reward is applied")
             @BeforeEach
             void setUp() {
                 info = reward.applyReward(smallOrder, 0);
             }
 
+            @DisplayName("Then discount should be zero")
             @Test
             void checkDiscount() {
                 assertEquals(0, info.getDiscount());
             }
 
+            @DisplayName("Then points redeemed should be zero")
             @Test
             void checkPointRedeemed() {
                 assertEquals(0, info.getPointsRedeemed());
