@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
+@DisplayName("Reward By Conversion \uD83D\uDE04")
 public class RewardByDiscountServiceTest {
 
     private RewardByDiscountService reward = null;
