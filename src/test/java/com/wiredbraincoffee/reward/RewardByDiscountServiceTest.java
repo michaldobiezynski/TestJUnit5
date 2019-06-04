@@ -9,37 +9,17 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-//@TestInstance(TestInstance.Lifecycle.PER_METHOD)
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+
 public class RewardByDiscountServiceTest {
 
     private RewardByDiscountService reward = null;
 
-    RewardByDiscountServiceTest() {
-        System.out.println("Constructor");
-    }
-
-    @BeforeAll
-    static void setUpAll() {
-        System.out.println("BeforeAll");
-    }
 
     @BeforeEach
     void setUp() {
         reward = new RewardByDiscountService();
         System.out.println("BeforeEach");
     }
-
-    @AfterEach
-    void tearDown() {
-        System.out.println("AfterEach");
-    }
-
-    @AfterAll
-    static void tearDownAll() {
-        System.out.println("AfterAll");
-    }
-
 
     @Test
     void setNeededPoints() {
