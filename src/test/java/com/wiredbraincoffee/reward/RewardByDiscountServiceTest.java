@@ -9,7 +9,8 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@TestInstance(TestInstance.Lifecycle.PER_METHOD)
+//@TestInstance(TestInstance.Lifecycle.PER_METHOD)
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class RewardByDiscountServiceTest {
 
     RewardByDiscountServiceTest() {
@@ -39,6 +40,7 @@ public class RewardByDiscountServiceTest {
 
     @Test
     void setNeededPoints() {
+        System.out.println("Test setNeededPoints");
 
         RewardByDiscountService reward = new RewardByDiscountService();
 

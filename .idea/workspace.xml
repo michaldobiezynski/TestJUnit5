@@ -5104,6 +5104,7 @@
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/location-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/peers-industry-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/section-inserts.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" afterDir="false" />
@@ -5248,8 +5249,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="450">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
@@ -5422,7 +5423,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559636362680" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559636878450" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -5516,7 +5517,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559632702314</updated>
-      <workItem from="1559632709482" duration="3235000" />
+      <workItem from="1559632709482" duration="3749000" />
     </task>
     <servers />
   </component>
@@ -5539,9 +5540,12 @@
     <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 09h 19m 13s.xml">
       <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 09h 19m 27s.xml">
+      <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3235000" />
+    <option name="totallyTimeSpent" value="3749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-534" width="2576" height="1416" extended-state="6" />
@@ -5641,8 +5645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="450">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#406#407#0" expanded="true" />
