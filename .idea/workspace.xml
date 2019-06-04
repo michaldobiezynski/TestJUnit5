@@ -5104,9 +5104,7 @@
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/location-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/peers-industry-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/section-inserts.ru" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/controller/ShipwreckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/controller/ShipwreckController.java" afterDir="false" />
@@ -5250,10 +5248,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+            <state relative-caret-position="663">
+              <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+                <element signature="e#1711#1712#0" expanded="true" />
+                <element signature="e#1757#1758#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -5458,7 +5462,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559638957714" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559639184077" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -5552,14 +5556,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559632702314</updated>
-      <workItem from="1559632709482" duration="5543000" />
+      <workItem from="1559632709482" duration="5766000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 08h 58m 00s.xml">
-      <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RewardByDiscountServiceTest_setPercentageForPoints - 2019.06.04 at 08h 59m 50s.xml">
       <configuration name="RewardByDiscountServiceTest.setPercentageForPoints" configurationId="JUnit" />
     </history-entry>
@@ -5587,9 +5588,12 @@
     <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 09h 58m 16s.xml">
       <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RewardByDiscountServiceTest - 2019.06.04 at 10h 02m 43s.xml">
+      <configuration name="RewardByDiscountServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5543000" />
+    <option name="totallyTimeSpent" value="5766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-534" width="2576" height="1416" extended-state="6" />
@@ -5608,10 +5612,10 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32936507" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936507" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2515873" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2515873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -5689,10 +5693,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+        <state relative-caret-position="663">
+          <caret line="78" column="56" selection-start-line="78" selection-start-column="56" selection-end-line="78" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
           </folding>
         </state>
       </provider>

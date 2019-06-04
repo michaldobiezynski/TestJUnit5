@@ -60,6 +60,26 @@ public class RewardByDiscountServiceTest {
             assertEquals(0, info.getPointsRedeemed());
         }
 
+        @Nested
+        class ZeroPoints {
+            private RewardInformation info =null;
+
+            @BeforeEach
+            void setUp() {
+                info = reward.applyReward(smallOrder, 0);
+            }
+
+            @Test
+            void checkDiscount() {
+                assertEquals(0, info.getDiscount());
+            }
+
+            @Test
+            void checkPointRedeemed() {
+                assertEquals(0, info.getPointsRedeemed());
+            }
+        }
+
     }
 
 
