@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -42,6 +43,35 @@ public class RewardByGiftServiceTest {
                 () -> assertEquals(2.99, info.getDiscount()),
                         () ->  assertEquals(100, info.getPointsRedeemed()));
     }
+
+    @Test
+    @DisplayName("Exception is thrown when invalid product ID")
+    void exceptionThrownWhenInvalidProductID() {
+        long productId = 0;
+        RuntimeException exception = assertThrows(RuntimeException.class, () -> {
+            reward.setGiftProductId(productId);
+        });
+        assertTrue(exception.getMessage().contains(String.valueOf(productId)));
+    }
+
+    @Test
+    @DisplayName("Should not exceed timeout")
+    void timeoutNotExceeded() {
+        int numberOfProducts = 50_000;
+        reward.setGiftProductId(numberOfProducts - 1);
+
+        RewardInformation info = assertTimeout(
+                Duration.ofMillis(4),
+                () ->
+                        reward.applyReward(
+                                buildSampleOrder(numberOfProducts),
+                                200
+                        )
+        );
+
+        assertEquals(2.99, info.getDiscount());
+    }
+
 
     private List<Product> buildSampleOrder(int numberOfProducts) {
         List<Product> list = IntStream.range(1, numberOfProducts)
