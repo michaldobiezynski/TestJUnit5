@@ -4,13 +4,16 @@ import com.wiredbraincoffee.product.Product;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DynamicTest;
 import org.junit.jupiter.api.TestFactory;
+import org.junit.jupiter.api.function.ThrowingConsumer;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
+import static org.junit.jupiter.api.DynamicTest.stream;
 
 public class RewardByGiftServiceDynamicTest {
 
@@ -33,23 +36,45 @@ public class RewardByGiftServiceDynamicTest {
 //                ).iterator();
 //    }
 
-        @TestFactory
-        Stream<DynamicTest> giftProductNotInOrderRewardNotApplied() {
-        return getStreamOfRandomNumbers()
-                .limit(5)
-                .mapToObj(randomId ->
-                        dynamicTest(
-                                "Testing product ID " + randomId,
-                                () -> {
-                                    reward.setGiftProductId(randomId);
-                                    RewardInformation info = reward.applyReward(
-                                            getSampleOrder(), 200);
+//        @TestFactory
+//        Stream<DynamicTest> giftProductNotInOrderRewardNotApplied() {
+//        return getStreamOfRandomNumbers()
+//                .limit(5)
+//                .mapToObj(randomId ->
+//                        dynamicTest(
+//                                "Testing product ID " + randomId,
+//                                () -> {
+//                                    reward.setGiftProductId(randomId);
+//                                    RewardInformation info = reward.applyReward(
+//                                            getSampleOrder(), 200);
+//
+//                                    assertEquals(0, info.getDiscount());
+//                                    assertEquals(0, info.getPointsRedeemed());
+//                                }
+//                        )
+//                );
+//    }
 
-                                    assertEquals(0, info.getDiscount());
-                                    assertEquals(0, info.getPointsRedeemed());
-                                }
-                        )
-                );
+    @TestFactory
+    Stream<DynamicTest> giftProductNotInOrderRewardNotApplied() {
+        Iterator<Long> inputGeneratorIterator = getStreamOfRandomNumbers().limit(5).iterator();
+
+        Function<Long, String> displayNameGeneratorFunction = randomId -> "Testing product ID " + randomId;
+
+        ThrowingConsumer<Long> testExecutorThrowingConsumer = randomId -> {
+            reward.setGiftProductId(randomId);
+            RewardInformation info = reward.applyReward(
+                    getSampleOrder(), 200);
+
+            assertEquals(0, info.getDiscount());
+            assertEquals(0, info.getPointsRedeemed());
+        };
+
+        return stream(
+                inputGeneratorIterator,
+                displayNameGeneratorFunction,
+                testExecutorThrowingConsumer
+        );
     }
 
     private LongStream getStreamOfRandomNumbers() {
