@@ -5104,8 +5104,9 @@
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/location-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/peers-industry-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/section-inserts.ru" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceDynamicTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/TestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/TestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wiredbraincoffee/reward/TestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wiredbraincoffee/reward/TestHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/controller/ShipwreckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/controller/ShipwreckController.java" afterDir="false" />
@@ -5246,7 +5247,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/TestHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -5257,6 +5258,29 @@
                 <element signature="e#394#395#0" expanded="true" />
                 <element signature="e#901#902#0" expanded="true" />
                 <element signature="e#972#973#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceRepeatTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceDynamicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -5313,6 +5337,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByConversionServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/TestHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceRepeatTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceDynamicTest.java" />
       </list>
     </option>
   </component>
@@ -5464,7 +5490,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559806176196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559808227109" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -5473,6 +5499,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dobimi\repository\TestJUnit\src\test\java\com\wiredbraincoffee\reward" />
       <recent name="C:\Users\dobimi\repository\TestJUnit\src\main\java" />
     </key>
   </component>
@@ -5488,7 +5515,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RewardByConversionServiceTest">
+  <component name="RunManager" selected="JUnit.RewardByGiftServiceDynamicTest">
     <configuration name="RewardByConversionServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJUnit" />
       <extension name="coverage">
@@ -5504,7 +5531,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RewardByDiscountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RewardByGiftServiceDynamicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJUnit" />
       <extension name="coverage">
         <pattern>
@@ -5513,7 +5540,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.wiredbraincoffee.reward" />
-      <option name="MAIN_CLASS_NAME" value="com.wiredbraincoffee.reward.RewardByDiscountServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.wiredbraincoffee.reward.RewardByGiftServiceDynamicTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RewardByGiftServiceRepeatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiredbraincoffee.reward.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wiredbraincoffee.reward" />
+      <option name="MAIN_CLASS_NAME" value="com.wiredbraincoffee.reward.RewardByGiftServiceRepeatTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -5530,22 +5572,6 @@
       <option name="PACKAGE_NAME" value="com.wiredbraincoffee.reward" />
       <option name="MAIN_CLASS_NAME" value="com.wiredbraincoffee.reward.RewardByGiftServiceTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RewardByGiftServiceTest.rewardApplied" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wiredbraincoffee.reward.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wiredbraincoffee.reward" />
-      <option name="MAIN_CLASS_NAME" value="com.wiredbraincoffee.reward.RewardByGiftServiceTest" />
-      <option name="METHOD_NAME" value="rewardApplied" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -5568,11 +5594,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RewardByGiftServiceDynamicTest" />
+        <item itemvalue="JUnit.RewardByGiftServiceRepeatTest" />
         <item itemvalue="JUnit.RewardByConversionServiceTest" />
         <item itemvalue="JUnit.RewardByGiftServiceTest" />
         <item itemvalue="JUnit.RewardByGiftServiceTest.timeoutNotExceeded" />
-        <item itemvalue="JUnit.RewardByGiftServiceTest.rewardApplied" />
-        <item itemvalue="JUnit.RewardByDiscountServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -5586,20 +5612,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559632702314</updated>
-      <workItem from="1559632709482" duration="11600000" />
+      <workItem from="1559632709482" duration="12983000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RewardByGiftServiceTest_rewardApplied - 2019.06.04 at 14h 20m 17s.xml">
-      <configuration name="RewardByGiftServiceTest.rewardApplied" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 20m 30s.xml">
-      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 20m 52s.xml">
-      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 21m 06s.xml">
       <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
     </history-entry>
@@ -5621,9 +5638,18 @@
     <history-entry file="RewardByConversionServiceTest - 2019.06.06 at 08h 16m 44s.xml">
       <configuration name="RewardByConversionServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RewardByGiftServiceRepeatTest - 2019.06.06 at 08h 30m 04s.xml">
+      <configuration name="RewardByGiftServiceRepeatTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceDynamicTest - 2019.06.06 at 09h 02m 33s.xml">
+      <configuration name="RewardByGiftServiceDynamicTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RewardByGiftServiceDynamicTest - 2019.06.06 at 09h 02m 48s.xml">
+      <configuration name="RewardByGiftServiceDynamicTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11600000" />
+    <option name="totallyTimeSpent" value="12983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-534" width="2576" height="1416" extended-state="6" />
@@ -5767,6 +5793,25 @@
             <element signature="e#394#395#0" expanded="true" />
             <element signature="e#901#902#0" expanded="true" />
             <element signature="e#972#973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceRepeatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByGiftServiceDynamicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="62" lean-forward="true" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
           </folding>
         </state>
       </provider>
