@@ -4,9 +4,8 @@ import com.wiredbraincoffee.product.Product;
 import com.wiredbraincoffee.reward.RewardByGiftService;
 import com.wiredbraincoffee.reward.RewardInformation;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.TestInfo;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.converter.ConvertWith;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.Arrays;
@@ -18,44 +17,22 @@ public class RewardByGiftServiceParameterizedTest {
     private RewardByGiftService reward = null;
 
     @BeforeEach
-    void setUp(TestInfo testInfo) {
+    void setUp() {
         reward = new RewardByGiftService();
         reward.setNeededPoints(100);
-        System.out.println("BeforeEach");
     }
 
-//    @ParameterizedTest
-//    @ValueSource(longs = { 1, 2, 3, 4 })
-//    void discountShouldBeApplied(long productId) {
-//        reward.setGiftProductId(productId);
-//        RewardInformation info = reward.applyReward(
-//                getSampleOrder(), 200);
-//
-//        assertTrue(info.getDiscount() > 0, "The discount should have been applied");
-//    }
-
-    @ParameterizedTest(name = "Test #{index}: productId={0}")
-    @ValueSource(longs = { 1, 2, 3, 4 })
-    void discountShouldBeApplied(long productId) {
-        reward.setGiftProductId(productId);
+    @ParameterizedTest
+    @ValueSource(strings = { "1; Small Decaf; 1.99", "2; Big Decaf; 2.49" })
+    void discountShouldBeApplied(
+            @ConvertWith(ProductArgumentConverter.class) Product product) {
+        System.out.println("Testing product " + product.getName());
+        reward.setGiftProductId(product.getId());
         RewardInformation info = reward.applyReward(
                 getSampleOrder(), 200);
 
         assertTrue(info.getDiscount() > 0);
     }
-
-//    @ParameterizedTest
-//    @ValueSource(longs = { 1, 2, 3, 4 })
-//    void discountShouldBeApplied(long productId, TestInfo testInfo, TestReporter testReporter) {
-//        System.out.println("Display name: " + testInfo.getDisplayName());
-//        testReporter.publishEntry("ProductID", String.valueOf(productId));
-//
-//        reward.setGiftProductId(productId);
-//        RewardInformation info = reward.applyReward(
-//                getSampleOrder(), 200);
-//
-//        assertTrue(info.getDiscount() > 0, "The discount should have been applied");
-//    }
 
     private List<Product> getSampleOrder() {
         Product smallDecaf = new Product(1, "Small Decaf", 1.99);
