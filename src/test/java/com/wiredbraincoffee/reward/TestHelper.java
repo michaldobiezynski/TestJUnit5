@@ -9,42 +9,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-//@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public interface TestHelper {
-
-    RewardService getRewardService();
-
-    @BeforeEach
-    default void beforeEach() {
-        System.out.println("beforeEach defined in the interface");
-    }
-
-    /*@BeforeAll
-    default void beforeAllTests() {
-        System.out.println("Before all tests");
-    }
-
-    @AfterAll
-    default void afterAllTests() {
-        System.out.println("After all tests");
-    }*/
-
-    @BeforeAll
-    static void beforeAllTests() {
-        System.out.println("Before all tests");
-    }
-
-    @AfterAll
-    static void afterAllTests() {
-        System.out.println("After all tests");
-    }
-
-    @Test
-    @DisplayName("Correct points are set")
-    default void correctPoint() {
-        assertEquals(100, getRewardService().getNeededPoints());
-    }
-
     default List<Product> getEmptyOrder() {
         return Arrays.asList();
     }
@@ -56,5 +21,13 @@ public interface TestHelper {
         Product espresso = new Product(5, "Espresso", 2.99);
         return Arrays.asList(
                 bigDecaf, bigLatte, bigTea, espresso);
+    }
+
+    RewardService getRewardService();
+
+    @Test
+    @DisplayName("Correct points are set")
+    default void correctPoint() {
+        assertEquals(100, getRewardService().getNeededPoints());
     }
 }

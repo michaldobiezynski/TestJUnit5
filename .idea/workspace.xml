@@ -5105,6 +5105,7 @@
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/peers-industry-inserts.ru" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Migration/Common/trunk/sparql/setup/section-inserts.ru" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/TestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/TestHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/DassBootApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/controller/ShipwreckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../dass-boot/src/main/java/com/boot/controller/ShipwreckController.java" afterDir="false" />
@@ -5248,20 +5249,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/TestHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="561">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1102#1103#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1185#1186#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -5270,8 +5265,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByConversionServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+            <state relative-caret-position="544">
+              <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#749#750#0" expanded="true" />
@@ -5469,7 +5464,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559805321144" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559806176196" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -5493,7 +5488,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RewardByGiftServiceTest">
+  <component name="RunManager" selected="JUnit.RewardByConversionServiceTest">
+    <configuration name="RewardByConversionServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestJUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wiredbraincoffee.reward.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wiredbraincoffee.reward" />
+      <option name="MAIN_CLASS_NAME" value="com.wiredbraincoffee.reward.RewardByConversionServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RewardByDiscountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestJUnit" />
       <extension name="coverage">
@@ -5505,22 +5515,6 @@
       <option name="PACKAGE_NAME" value="com.wiredbraincoffee.reward" />
       <option name="MAIN_CLASS_NAME" value="com.wiredbraincoffee.reward.RewardByDiscountServiceTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RewardByDiscountServiceTest.setPercentageForPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestJUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wiredbraincoffee.reward.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wiredbraincoffee.reward" />
-      <option name="MAIN_CLASS_NAME" value="com.wiredbraincoffee.reward.RewardByDiscountServiceTest" />
-      <option name="METHOD_NAME" value="setPercentageForPoints" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -5574,11 +5568,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RewardByConversionServiceTest" />
         <item itemvalue="JUnit.RewardByGiftServiceTest" />
         <item itemvalue="JUnit.RewardByGiftServiceTest.timeoutNotExceeded" />
         <item itemvalue="JUnit.RewardByGiftServiceTest.rewardApplied" />
         <item itemvalue="JUnit.RewardByDiscountServiceTest" />
-        <item itemvalue="JUnit.RewardByDiscountServiceTest.setPercentageForPoints" />
       </list>
     </recent_temporary>
   </component>
@@ -5592,14 +5586,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559632702314</updated>
-      <workItem from="1559632709482" duration="10772000" />
+      <workItem from="1559632709482" duration="11600000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RewardByGiftServiceTest_timeoutNotExceeded - 2019.06.04 at 14h 17m 37s.xml">
-      <configuration name="RewardByGiftServiceTest.timeoutNotExceeded" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RewardByGiftServiceTest_rewardApplied - 2019.06.04 at 14h 20m 17s.xml">
       <configuration name="RewardByGiftServiceTest.rewardApplied" configurationId="JUnit" />
     </history-entry>
@@ -5627,9 +5618,12 @@
     <history-entry file="RewardByGiftServiceTest - 2019.06.04 at 14h 27m 12s.xml">
       <configuration name="RewardByGiftServiceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RewardByConversionServiceTest - 2019.06.06 at 08h 16m 44s.xml">
+      <configuration name="RewardByConversionServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10772000" />
+    <option name="totallyTimeSpent" value="11600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-534" width="2576" height="1416" extended-state="6" />
@@ -5641,7 +5635,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -5651,7 +5645,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32936507" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2515873" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2515873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -5737,20 +5731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByConversionServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#1793#1794#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByDiscountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -5763,22 +5743,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/TestHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/RewardByConversionServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="544">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1102#1103#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#1764#1765#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wiredbraincoffee/reward/TestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
           </folding>
         </state>
       </provider>
